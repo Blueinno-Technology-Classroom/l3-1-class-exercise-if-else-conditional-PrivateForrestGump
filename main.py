@@ -1,31 +1,31 @@
 ##################################################
 '''
 Q1:
-a: 
-b:  
-c:  
-d: 
-e: 
-f: 
-g: 
-h: 
-i: 
+a:  t
+b:  f
+c:  t
+d:  f
+e:  t
+f:  f
+g:  t
+h:  t
+i:  t
 '''
 
 ##################################################
 '''
-Q2:
-a:  
-b:  
-c:  
-d: 
-e: 
-f: 
-g: 
-h: 
-i: 
-j: 
-k: 
+Q2: 
+a:  y > 0
+b:  z != 0
+c:  y > z
+d:  z => 0
+e:  abs(x-y) < abs(z-y)
+f:  z % 2 == 1
+g:  x % 2 == 0
+h:  y % z == 0 
+i:  -1<y and y<10
+j:  x/z == -1
+k:  (x % 2 == 0 and y % 2 == 1) or (x % 2 == 1 and y % 2 == 0)
 '''
 
 ##################################################
@@ -35,10 +35,9 @@ Q3:
 
 number = int(input('Give me a number: '))
 
-if number % 2 == 0:
-    if number % 3 == 0:
-        print("Divisible by 6.")
-    else:
-        print("Odd number.")
+if (number % 2 == 0):
+    print("Divisible by 2.")
+else:
+    print("Odd number.")
 
 ##################################################
